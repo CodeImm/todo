@@ -1,0 +1,105 @@
+.noteHandler {
+  display: flex;
+  flex-direction: row; 
+  align-content: center;
+  align-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0;
+  min-height: 50px;
+  padding: 5px 10px;
+  border-top: 1px solid #A5A5A5;
+  border-bottom: 1px solid #A5A5A5;
+  border-left: none;
+  border-right: none;
+
+  color:#42AAFF;
+
+  background-color: inherit;
+
+}
+
+.deleteNoteBtn {
+  width: 30px;
+  height: 30px;
+
+  font-size: 20px;
+  cursor: pointer;
+  color: "#fff";  
+
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.deleteNoteBtn:hover {
+  opacity: 0.7;
+  background-color: #A5A5A5;
+}
+
+.editItem {
+  overflow: auto;
+  height: 100%;
+  padding: 30px 30px;
+}
+
+.titleInput{
+  margin-bottom: 20px;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.textTextarea{
+  display: table;
+  height: 100px;
+  width: 100%;
+
+  font-size: 16px;
+
+  overflow: auto;
+  resize: none;
+}
+
+.titleInput, .textTextarea, .titleInput:focus, .textTextarea:focus  {
+  border: none;
+  outline: none;
+  
+  
+  display: table;
+  width: 100%;
+
+  overflow: auto;
+  resize: none;
+
+  background-color: inherit;
+}
+
+#radioGroup{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border: none;
+}
+
+#radioGroup > div:not(:last-child) {
+  margin-right: 15px;
+}
+
+.radio {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  gap: 5px;
+
+  cursor: 'pointer';
+}
+
+.radio > label {
+  cursor: pointer;
+}

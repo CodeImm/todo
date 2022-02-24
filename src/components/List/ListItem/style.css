@@ -1,0 +1,26 @@
+.root {
+  position: relative;
+  display: flex;
+  flex-direction: column; 
+  min-height: 50px;
+  padding: 5px 10px;
+  border-bottom: 1px solid #A5A5A5;
+}
+
+.title{
+  font-weight: 500;
+}
+
+.text, .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.noteStatus {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 100%;
+}
